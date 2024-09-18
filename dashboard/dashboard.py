@@ -47,7 +47,7 @@ with st.sidebar:
             '>PT. Bike Sharing Mundar-Mandir</h1>
             """, unsafe_allow_html=True)
     # Menambahkan gambar
-    st.image('../picture/wallpaper.jpg', use_column_width=True)
+    st.image('wallpaper.jpg', use_column_width=True)
 
     st.title('Menu Pilihan')
     tahun_list = ['All Years'] + sorted(df_grouped['tahun'].unique().tolist())
